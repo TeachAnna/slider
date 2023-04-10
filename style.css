@@ -1,0 +1,22 @@
+.box {
+  margin: auto;
+  width: 50%;
+  text-align: center;
+}
+
+figure {
+  position: relative;
+}
+
+img {
+  width: 100%;
+  position: absolute;
+  left: 0;
+  opacity: 0;
+  transition: 3s;
+}
+
+.show {
+  opacity: 1;
+  transition: 3s;
+}
